@@ -1,0 +1,35 @@
+
+/*NAVIGATION*/
+.navbar {
+
+	background-color: #242424;     /* Puts black backround color */
+	border-bottom: 1px solid #b9b9b9; /* Puts a white border in bottom of navbar 
+	to distinguish first page */
+
+}
+
+.navbar a {
+	color: #cccccc !important; /*Adding link colours (Grey) */
+	/* !important says that browser will use our style sheet rather than 
+	bootstrap style sheet */
+	font-family: 'Lato', sans-serif;
+	/* Adding fonts from google api google.com/fonts 
+	and it will load when page is loaded */
+}
+
+.navbar a:hover{
+	color:#ffffff !important;
+	/* Adding a color to links (white) while they are
+	hovered over */
+	background-color: #646464 !important;
+	/*changing the background of the links */ 
+}
+
+.navbar-header .navbar-brand{
+	color:#ffffff !important;
+	/* Logo's color is changed to white
+	it sites in navbar-header inside navar-brand */
+	font-size: 1.5em;
+	/*Changing size of the logo */
+}
+
