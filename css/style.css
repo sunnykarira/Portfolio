@@ -80,3 +80,28 @@ blog.koalite.com/bbg */
 	them rectangle */
 	border-radius: 0;
 }
+
+/* Adding media queries for smaller screens than ipad*/
+@media(max-width: 768px){
+
+	.header{
+		text-align: center;
+		/*padding is added yto bridge gap b/w
+		nav bar and Welcome*/
+		padding-top: 20%;
+	}
+	.header h1{
+		font-size: 5em;
+	}
+	.header p{
+		font-size: 1em;
+	}
+	.header .btn{
+		/*Adding padding so the button do not stack
+		on each other */
+		padding:5px 12px 5px 12px;
+	}
+	.header img{
+		padding-top: 10%;
+	}
+}
