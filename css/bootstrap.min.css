@@ -8,7 +8,7 @@
 .btn-trans  { 
   color: #ffffff; 
   background-color: transparent; 
-  border-color: #FFF; 
+  border-color: #FFFFFF; 
 } 
  
 .btn-trans :hover, 
@@ -17,8 +17,8 @@
 .btn-trans .active, 
 .open .dropdown-toggle.btn-trans  { 
   color: #ffffff; 
-  background-color: transparent; 
-  border-color: #ffffff; 
+  background-color: #235378; 
+  border-color: #FFFFFF; 
 } 
  
 .btn-trans :active, 
@@ -43,7 +43,7 @@ fieldset[disabled] .btn-trans :active,
 .btn-trans [disabled].active, 
 fieldset[disabled] .btn-trans .active { 
   background-color: #611BBD; 
-  border-color: #FFF; 
+  border-color: #FFFFFF; 
 } 
  
 .btn-trans  .badge { 

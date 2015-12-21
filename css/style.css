@@ -1,3 +1,9 @@
+/* Adding droid sans font , any p and h which are not in any 
+class will have this font*/
+p, h1{
+
+	font-family: 'Droid Sans', sans-serif;
+}
 
 /*NAVIGATION*/
 .navbar {
@@ -33,3 +39,44 @@
 	/*Changing size of the logo */
 }
 
+/*HEADER */
+.header{
+	padding: 140px 0 60px 0;
+	/* top right bottom left */
+	/* Padding is used to align content */
+	background: url(../img/bg.jpg) no-repeat center center;
+	/*url can be given if we want to load it from web */
+	/*.. is for backstep in folder since we are in css */
+	/*then actual path of image is given */
+	/* then no-repeat for not repeating the image + center center
+	is for positioning */
+
+	background-size: cover;
+	/* image stretches and fills the background top to bottom
+	on large devices */
+	width: 100%; 
+	/* image do not cutoff on large devices */
+	border-bottom: 2px solid #c9c9c9;
+}
+
+.header h1{
+	color:white;
+	font-family: 'Pacifico', cursive;
+	/* Adding font to the Welcome heading */
+	font-size: 7.5em;
+}
+
+.header p{
+	color: white;
+	font-size: 1.5em;
+}
+
+/* button generator can generate awesome buttons on
+blog.koalite.com/bbg */
+.header .btn{
+	/*Adding padding to button*/
+	padding: 5px 50px 5px 50px;
+	/* Removing round corner of button and making
+	them rectangle */
+	border-radius: 0;
+}
