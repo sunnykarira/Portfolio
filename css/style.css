@@ -105,3 +105,22 @@ blog.koalite.com/bbg */
 		padding-top: 10%;
 	}
 }
+
+/* ABOUT */
+
+.about{
+	padding: 100px 0px 100px 0px;
+	text-align: center;
+
+}
+
+.about h1{
+	font-size: 1.8em;
+	color: #3378b7;
+	/* Blue which was in the button */
+	padding: 0 0 25px 0;
+}
+
+.about p{
+	padding-bottom: 25px;
+}
