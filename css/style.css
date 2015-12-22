@@ -111,7 +111,7 @@ blog.koalite.com/bbg */
 .about{
 	padding: 100px 0px 100px 0px;
 	text-align: center;
-
+	border-bottom: 2px solid #c9c9c9;
 }
 
 .about h1{
