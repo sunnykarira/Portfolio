@@ -213,3 +213,25 @@ blog.koalite.com/bbg */
 .reviews .line2 p{
 	padding-top: 35px;
 }
+
+/* BUY*/
+
+.buy{
+	background-color: #1c3f5c ;
+	padding: 100px 0px 100px;
+	color:white;
+	text-align: center;
+}
+
+.buy h1{
+	font-size: 2em;
+	padding-bottom: 25px;
+}
+
+.buy button{
+	background: transparent; /* Removes ugly background of the 
+	button */
+	border:none; /* Removes border of the buttons */
+	padding-top: 25px;
+}
+
