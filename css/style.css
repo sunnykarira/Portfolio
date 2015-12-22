@@ -1,287 +1,244 @@
-/* Adding droid sans font , any p and h which are not in any 
-class will have this font*/
-p, h1{
-
-	font-family: 'Droid Sans', sans-serif;
+p, h1 {
+ font-family: 'Droid Sans', sans-serif;
 }
 
 /*NAVIGATION*/
+
 .navbar {
-
-	background-color: #242424;     /* Puts black backround color */
-	border-bottom: 1px solid #b9b9b9; /* Puts a white border in bottom of navbar 
-	to distinguish first page */
-	font-family: 'Lato', sans-serif;
-	/* Adding fonts from google api google.com/fonts 
-	and it will load when page is loaded */
-
+ background-color:#242424;
+ border-bottom:1px solid #b9b9b9;
+ font-family: 'Lato', sans-serif;
 }
 
 .navbar a {
-	color: #cccccc !important; /*Adding link colours (Grey) */
-	/* !important says that browser will use our style sheet rather than 
-	bootstrap style sheet */
-	font-family: 'Lato', sans-serif;
-	/* Adding fonts from google api google.com/fonts 
-	and it will load when page is loaded */
+ color:#cccccc !important;
 }
 
-.navbar a:hover{
-	color:#ffffff !important;
-	/* Adding a color to links (white) while they are
-	hovered over */
-	background-color: #646464 !important;
-	/*changing the background of the links */ 
+.navbar a:hover {
+ color:#ffffff !important;
+ background-color:#646464 !important;
 }
 
-.navbar-header .navbar-brand{
-	color:#ffffff !important;
-	/* Logo's color is changed to white
-	it sites in navbar-header inside navar-brand */
-	font-size: 1.5em;
-	/*Changing size of the logo */
+.navbar-header .navbar-brand {
+ color:white !important;
+ font-size:1.5em;
 }
 
-/*HEADER */
-.header{
-	padding: 140px 0 60px 0;
-	/* top right bottom left */
-	/* Padding is used to align content */
-	background: url(../img/bg.jpg) no-repeat center center;
-	/*url can be given if we want to load it from web */
-	/*.. is for backstep in folder since we are in css */
-	/*then actual path of image is given */
-	/* then no-repeat for not repeating the image + center center
-	is for positioning */
 
-	background-size: cover;
-	/* image stretches and fills the background top to bottom
-	on large devices */
-	width: 100%; 
-	/* image do not cutoff on large devices */
-	border-bottom: 2px solid #c9c9c9;
+/*HEADER*/
+
+.header {
+ padding: 140px 0 60px;
+ background: url(../img/bg.jpg) no-repeat center center;
+ background-size: cover;
+ width: 100%;
+ border-bottom: 2px solid #c9c9c9;
 }
 
-.header h1{
-	color:white;
-	font-family: 'Pacifico', cursive;
-	/* Adding font to the Welcome heading */
-	font-size: 7.5em;
+.header h1 {
+ color: white;
+ font-family: 'Pacifico', cursive;
+ font-size: 7.5em;
 }
 
-.header p{
-	color: white;
-	font-size: 1.5em;
+.header p {
+ color:white;
+ font-size:1.3em;
 }
 
-/* button generator can generate awesome buttons on
-blog.koalite.com/bbg */
-.header .btn{
-	/*Adding padding to button*/
-	padding: 5px 50px 5px 50px;
-	/* Removing round corner of button and making
-	them rectangle */
-	border-radius: 0;
+.header .btn {
+ padding: 5px 50px 5px 50px;
+ border-radius: 0;
 }
 
-/* Adding media queries for smaller screens than ipad*/
-@media(max-width: 768px){
+@media(max-width:768px) {
 
-	.header{
-		text-align: center;
-		/*padding is added yto bridge gap b/w
-		nav bar and Welcome*/
-		padding-top: 20%;
-	}
-	.header h1{
-		font-size: 5em;
-	}
-	.header p{
-		font-size: 1em;
-	}
-	.header .btn{
-		/*Adding padding so the button do not stack
-		on each other */
-		padding:5px 12px 5px 12px;
-	}
-	.header img{
-		padding-top: 10%;
-	}
+ .header {
+  text-align:center;
+  padding-top: 20%;
+ }
+
+ .header h1 {
+ font-size:5em;
+ }
+ 
+ .header p {
+  font-size:1em;
+ }
+ 
+ .header .btn {
+  padding: 5px 12px 5px 12px;
+ }
+ 
+ .header img {
+  padding-top:10%;
+ }
+
 }
 
-/* ABOUT */
 
-.about{
-	padding: 100px 0px 100px 0px;
-	text-align: center;
-	border-bottom: 2px solid #c9c9c9;
+/*ABOUT*/
+
+.about {
+ padding: 100px 0 100px;
+ text-align: center;
 }
 
-.about h1{
-	font-size: 1.8em;
-	color: #3378b7;
-	/* Blue which was in the button */
-	padding: 0 0 25px 0;
+.about h1 {
+ font-size: 1.8em;
+ color: #337ab7;
+ padding: 0 0 25px;
 }
 
-.about p{
-	padding-bottom: 25px;
+.about p {
+ padding-bottom:25px;
 }
+
+
 
 /*FEATURES*/
-.features{
-	background-color: #337ab7;
-	text-align: center;
-	color: white;
-	padding:90px 0px 90px 0px;
 
+.features {
+ background-color: #337ab7;
+ text-align:center;
+ color:white;
+ padding:90px 0 90px;
 }
 
-.features h1{
-	font-size: 2em;
-	padding-bottom: 25px;
-
+.features h1 {
+ font-size:2em;
+ padding-bottom:25px;
 }
 
-.features img{
-	padding: 15px 0 35px;
+.features img {
+ padding:15px 0 35px;
 }
 
-/* PRESS */
-.press{
-	padding:90px 0px 90px;
-	text-align: center;
 
+
+/*PRESS*/
+
+.press {
+ padding:90px 0 90px;
+ text-align:center;
 }
 
-.press h1{
-	font-size: 1.8em;
-	padding-bottom: 25px;
-	color: #337ab7;
+.press h1 {
+ font-size:1.8em;
+ padding-bottom:25px;
+ color:#337ab7;
 }
 
 .press .press-logo li img {
-	opacity: 0.3;
-	/* Accessing press class then press-logo class 
-	which has all the logos then li and then img tag
-	Applying opacity to logo's
-	Opacity is b/w 0 an 1
-	0 = transparent
-	1 = opaque
-	*/
-	padding-bottom: 25px;
-
+ opacity:0.3;
+ padding-bottom:25px;
 }
 
-.press .press-logo li:hover img{
-	opacity:1;
-	/* Adding hover section to logos so that
-	they will become visible when hovered over*/
+.press .press-logo li:hover img {
+ opacity:1;
 }
 
-/*SCREENSHOTS */
 
-.screenshots{
-	background-color: #235178;
-	text-align: center;
-	padding:90px 0 90px;
-	color:white;
+
+/*SCREENS*/
+
+.screenshots {
+ background-color:#235178;
+ padding:90px 0 90px;
+ text-align:center;
+ color:white;
 }
 
-.screenshots img{
-	padding:20px 0 20px;
+.screenshots img {
+ padding: 20px 0 20px;
 }
 
-.screenshots h1{
-	font-size: 2em;
+.screenshots h1 {
+ font-size:2em;
 }
 
-/* REVIEWS*/
- .reviews{
- 	padding:90px 0 90px;
- 	text-align: center;
+/*REVIEWS*/
 
- }
-
- .reviews h1{
- 	font-size: 2em;
- 	padding-bottom: 25px;
- 	color:#337ab7;
- }
-
- .reviews p{
- 	padding-bottom: 35px;
- }
-
-.reviews .line2 p{
-	padding-top: 35px;
+.reviews {
+ padding:90px 0 90px;
+ text-align:center;
 }
 
-/* BUY*/
-
-.buy{
-	background-color: #1c3f5c ;
-	padding: 100px 0px 100px;
-	color:white;
-	text-align: center;
+.reviews h1 {
+ font-size:2em;
+ padding-bottom: 25px;
+ color:#337ab7;
 }
 
-.buy h1{
-	font-size: 2em;
-	padding-bottom: 25px;
+.reviews p {
+ padding: 0 0 35px;
 }
 
-.buy button{
-	background: transparent; /* Removes ugly background of the 
-	button */
-	border:none; /* Removes border of the buttons */
-	padding-top: 25px;
+.reviews .line2 {
+ padding-top:35px;
 }
 
-/* CONTACT */
+/*BUY*/
 
-.contact{
-	padding: 100px 0 100px;
-	text-align: center;
-
+.buy {
+ padding:100px 0 100px;
+ background-color:#1c3f5c;
+ color:white;
+ text-align:center;
 }
 
-.contact h1{
-	font-size: 2em;
-	padding-bottom: 25px;
+.buy h1 {
+ font-size:2em;
+ padding-bottom:25px;
 }
 
-.contact .fa{
-	/* Changing  the fa class and
-	making them same */
-	color:#1c3f53;
-	padding: 20px 10px 30px;
+.buy button {
+ background:transparent;
+ border:none;
+ padding-top:25px;
 }
 
-.contact li{
-	padding-top: 10px;
+/*CONTACT*/
+
+.contact {
+ padding:100px 0 100px;
+ text-align:center;
 }
 
-/* FOOTER */
-.footer{
-	padding:30px 0 30px;
-	background-color:#242424 ;
-	color:white;
+.contact h1 {
+ font-size:2em;
+ padding-bottom: 25px;
 }
 
-.footer h1{
-	font-family: 'Lato', sans-serif;
-	/* Adding fonts from google api google.com/fonts 
-	and it will load when page is loaded */
-
-	font-size:1.5em;
+.contact .fa {
+ color:#1c3f5c;
+ padding:20px 10px 40px;
 }
 
-.footer p{
-	font-size: 0.9em;
-	color: #f2f2f2;
+.contact li {
+ padding-top: 10px;
 }
 
-.footer a{
-	color:#f2f2f2;
+/*FOOTER*/
+
+.footer {
+ background-color:#242424;
+ color:white;
+ padding:30px 0 30px;
 }
+
+.footer h1 {
+ font-family: 'Lato', sans-serif;
+ font-size:1.5em;
+}
+
+.footer p {
+ font-size:0.9em;
+ color:#f2f2f2;
+}
+
+.footer a {
+ color:#f2f2f2;
+}
+
+
