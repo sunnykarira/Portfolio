@@ -143,3 +143,35 @@ blog.koalite.com/bbg */
 .features img{
 	padding: 15px 0 35px;
 }
+
+/* PRESS */
+.press{
+	padding:90px 0px 90px;
+	text-align: center;
+
+}
+
+.press h1{
+	font-size: 1.8em;
+	padding-bottom: 25px;
+	color: #337ab7;
+}
+
+.press .press-logo li img {
+	opacity: 0.3;
+	/* Accessing press class then press-logo class 
+	which has all the logos then li and then img tag
+	Applying opacity to logo's
+	Opacity is b/w 0 an 1
+	0 = transparent
+	1 = opaque
+	*/
+	padding-bottom: 25px;
+
+}
+
+.press .press-logo li:hover img{
+	opacity:1;
+	/* Adding hover section to logos so that
+	they will become visible when hovered over*/
+}
