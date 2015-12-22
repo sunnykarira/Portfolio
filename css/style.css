@@ -235,3 +235,26 @@ blog.koalite.com/bbg */
 	padding-top: 25px;
 }
 
+/* CONTACT */
+
+.contact{
+	padding: 100px 0 100px;
+	text-align: center;
+
+}
+
+.contact h1{
+	font-size: 2em;
+	padding-bottom: 25px;
+}
+
+.contact .fa{
+	/* Changing  the fa class and
+	making them same */
+	color:#1c3f53;
+	padding: 20px 10px 30px;
+}
+
+.contact li{
+	padding-top: 10px;
+}
