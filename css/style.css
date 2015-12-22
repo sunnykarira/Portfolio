@@ -175,3 +175,20 @@ blog.koalite.com/bbg */
 	/* Adding hover section to logos so that
 	they will become visible when hovered over*/
 }
+
+/*SCREENSHOTS */
+
+.screenshots{
+	background-color: #235178;
+	text-align: center;
+	padding:90px 0 90px;
+	color:white;
+}
+
+.screenshots img{
+	padding:20px 0 20px;
+}
+
+.screenshots h1{
+	font-size: 2em;
+}
