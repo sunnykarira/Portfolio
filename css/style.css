@@ -124,3 +124,22 @@ blog.koalite.com/bbg */
 .about p{
 	padding-bottom: 25px;
 }
+
+/*FEATURES*/
+.features{
+	background-color: #337ab7;
+	text-align: center;
+	color: white;
+	padding:90px 0px 90px 0px;
+
+}
+
+.features h1{
+	font-size: 2em;
+	padding-bottom: 25px;
+
+}
+
+.features img{
+	padding: 15px 0 35px;
+}
